@@ -16,5 +16,8 @@ class PagesController < ApplicationController
  # back-end code for pages/explore
   def explore
   end
-  
+
+ # back-end code for pages/danube
+  def danube 
+  end
 end

@@ -6,7 +6,9 @@ Rails.application.routes.draw do
   get '/home' => 'pages#home' # override default routes. This isn't working.
   get '/profile' => 'pages#profile'
   get '/explore' => 'pages#explore'
+  get '/danube' => 'pages#danube'
   
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
